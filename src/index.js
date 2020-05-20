@@ -4,13 +4,16 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import Example from './navBarReactStra';
+// import Example from './navBarReactStra';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import WelcomeNavBar from  './Layout/Navbar/navbar';
+import ModalPost from './Components/Modal/AddPostModel/modal';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Example/>
+    <WelcomeNavBar/>
+    <ModalPost/>
+    {/* <Example/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
