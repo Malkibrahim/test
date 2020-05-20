@@ -3,15 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Btn from './btn';
-import Moodal from './modal';
+
 import Example from './navBarReactStra';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Moodal/>
+    <Example/>
   </React.StrictMode>,
   document.getElementById('root')
 );
