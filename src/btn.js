@@ -10,7 +10,7 @@ class  Btn extends Component {
 <Button variant="primary" size="lg" >
     Button
   </Button>{' '}
-  <Button href="#" variant="secondary" size="lg" >
+  <Button href="#" variant="secondary" size="lg"  >
     Link
   </Button>
 
