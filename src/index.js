@@ -1,19 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import Btn from './btn';
-import Moodal from './modal';
-import Example from './navBarReactStra';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import * as serviceWorker from "./serviceWorker";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+// import Header from "./Layout/Header/header";
+import HowITWork from "./Components/Card/HowToWorkCard/howtoworkCar";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Moodal/>
+    <HowITWork />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
